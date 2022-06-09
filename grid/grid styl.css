@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    background-color: bisque;
+    grid-template-columns: 1fr 4fr 1fr; 
+    gap: 5px;
+     grid-template-rows: 80px 1fr 80px; 
+   text-align: center;
+   font-size: 20px;
+}
+header{
+    background-color: blue;
+     grid-column: 1/4; 
+}
+nav{
+    background-color: chocolate;
+}
+main{
+    background-color: darkgray;
+}
+aside{
+    background-color: chocolate;
+}
+footer{
+    background-color: blue;
+    grid-column: 1/4; 
+}
